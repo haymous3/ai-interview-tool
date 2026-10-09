@@ -1038,3 +1038,127 @@
 # This will allow us to share our interactive app with others quickly and efficiently.
 
 # See you there!
+
+
+# /////////////////////////////////////////
+
+# DEPLOYING YOUR STREAMLIT APP
+
+# //////////////////////////////////////////
+
+
+# Now that your project is uploaded to GitHub, it's time to make it accessible to others by deploying
+
+# it.
+
+# In this lesson, we'll walk you through the process using Streamlit Community Cloud.
+
+# Streamlit Community Cloud is a fantastic service that allows you to host and share your Streamlit apps
+
+# with just a few clicks, making it incredibly easy to showcase your projects to the world.
+
+# Plus, it's free, but there's a catch you can only host Streamlit apps that are public on GitHub.
+
+# This means that everyone will be able to see the source code of your application.
+
+# While this might seem like a drawback, it also allows others to learn from your work and contributes
+
+# to the open source community.
+
+# A worthwhile trade off.
+
+# First, we need to create a requirements.txt file.
+
+# This file lists all the dependencies required to run your Streamlit app.
+
+# This ensures the Streamlit cloud knows which packages it needs to install to run your app smoothly.
+
+# To create this file, Open a text editor and create a new file named requirements.txt.
+
+# Now we need to add the libraries we've used for our project.
+
+# The requirements file should include Streamlit, OpenAI and Streamlit js eval.
+
+# It's as simple as that.
+
+# But what if you have so many libraries that you can't track them all, and you encounter errors every
+
+# time you try to run the app on the server?
+
+# In such cases, you can use the following command in the VSCode terminal to generate the requirements
+
+# file automatically.
+
+# This command will create a requirements file containing all the packages and dependencies currently
+
+# installed in your environment.
+
+# Once we have this file, we must commit and push it to GitHub.
+
+# We start by writing in the terminal.
+
+# Git add dot to add all the files.
+
+# Then with git commit m we can write a commit message.
+
+# For example adding the requirements file.
+
+# Finally, push the changes to the remote repository.
+
+# Git.
+
+# Push.
+
+# Origin.
+
+# Main.
+
+# All right.
+
+# To deploy the app we first need to visit shared Streamlit, IO and sign in with GitHub and set up your
+
+# account.
+
+# Once signed in, click Create App and select deploy a public app from GitHub.
+
+# You'll be presented with a form where you need to add information about your repository.
+
+# In the repository field, add the link to your GitHub repository.
+
+# We've used main for the branch, so select that.
+
+# The main file path should point to the file you use to run the app, which in our case is app dot Pi.
+
+# If needed, you can also customize the app URL.
+
+# Next, click on the Advanced Settings button.
+
+# This is where we can add the content of our secrets file.
+
+# Paste your API key here in the following format.
+
+# Save the changes and click deploy.
+
+# After a few seconds, your app will be deployed.
+
+# Let's test the application to ensure everything works perfectly.
+
+# And it does flawlessly.
+
+# Now we have an app that's up and running.
+
+# You can share the link with your friends to try it out.
+
+# We did it!
+
+# Congratulations on deploying your first LM app.
+
+# In the next section, you'll get an inside look at how we built the Ace interview.
+
+# Our interview simulator that is up and running today helping thousands of students prepare for their
+
+# job interviews.
+
+# So stay tuned.
+
+
